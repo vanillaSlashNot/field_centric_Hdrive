@@ -8,8 +8,6 @@
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 
-#include "main.h"
-
 // The drive used for testing had 8 motors (4 per side, 2 per corner)
 pros::Motor motor_lf1(1, true, pros::MotorGears::green);   // Left front 1
 pros::Motor motor_lf2(3, false, pros::MotorGears::green);  // Left front 2
